@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Scooter</title>
+    <link rel="shortcut icon" href="./dist/image/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./dist/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="main_header">
+          <img src="./dist/image/logo.png" alt="no header logo" />
+          <ul>
+            <li><a href="">Product</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <div>
+            <button class="login">Login</button>
+            <button class="Signup">Signup</button>
+          </div>
+          <div class="header_resp">
+            <p class="header_resp_main" id="header_resp_main" onclick="myfunction()"></p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="lower_header" id="lower_header">
+      <div class="container">
+        <div class="lower_header">
+          <ul>
+            <li><a href="">Product</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+          <div>
+            <button class="login">Login</button>
+            <button class="Signup">Signup</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header Section End-->
+
+    <!-- Hero Section Start -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero_section">
+          <div class="hero_left">
+            <h1>Let's ride <span>the future</span>.</h1>
+            <p class="hero_para">Simple and sleek design with users in mind.</p>
+            <div class="hero_div">
+              <div class="main_hero_div">
+                <div>
+                  <img src="./dist/image/hero_logo.png" alt="no hero logo" />
+                </div>
+                <a href="">Buy now</a>
+              </div>
+              <div class="main_hero_div">
+                <a href="" class="hero_watch">Watch our video how it works</a>
+                <img src="./dist/image/playbutton.png" alt="no play button" />
+              </div>
+            </div>
+          </div>
+          <div class="hero_left">
+            <img
+              src="./dist/image/heroSection.png"
+              alt="no hero image"
+              class="hero_right_image"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Hero List Start -->
+    <section>
+      <div class="container">
+        <ul class="hero_list">
+          <li>
+            <h2>105 <span>lbs</span></h2>
+            <p>Net Weight</p>
+          </li>
+          <li>
+            <h2>26 <span>mph</span></h2>
+            <p>Top Speed</p>
+          </li>
+          <li>
+            <h2>38 <span>miles</span></h2>
+            <p>Max Range</p>
+          </li>
+          <li>
+            <h2>89 <span>nm</span></h2>
+            <p>Max Torques</p>
+          </li>
+          <li>
+            <h2>22% <span>slope</span></h2>
+            <p>Hill Climbing</p>
+          </li>
+          <li>
+            <h2>2x</h2>
+            <p>Hydralic Disc Brakes</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Hero List End -->
+
+    <!-- Product Information Start -->
+    <section>
+      <div class="container">
+        <div class="project_information">
+          <h3 class="section_heading">Product Information</h3>
+          <p class="section_para">
+            Our Scooter has following unique design and technology features:
+          </p>
+          <div class="project_main">
+            <img
+              src="./dist/image/project_image.png"
+              alt=" no project Information"
+            />
+            <ul>
+              <li>Lightweight aircraft grade aluminium frame</li>
+              <li>Car grade lithium battery</li>
+              <li>Self-balanced</li>
+              <li>Plug n play</li>
+              <li>Quick release adapter</li>
+              <li>RFID key card</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Information End -->
+
+    <!-- High Efficiency Motor Start -->
+    <section>
+      <div class="container">
+        <div class="high_efficiency_main">
+          <h3 class="section_heading">High Efficiency Motor</h3>
+          <p class="section_para">
+            More torque for powerful riding with 22% maximum hill climbing
+            capability.
+          </p>
+          <img src="./dist/image/high_image.png" alt="High Efficiency Motor" />
+        </div>
+      </div>
+    </section>
+    <!-- High Efficiency Motor End -->
+
+    <!-- Multiple Accessories Start -->
+    <section>
+      <div class="container">
+        <div class="multiple_accessories">
+          <h3 class="section_heading">Multiple Accessories</h3>
+          <p class="section_para">
+            There are multiple modes for the scooter for your multiple needs.
+          </p>
+          <div class="golf_main">
+            <ul>
+              <h3 class="section_heading">Golf Bag Rock</h3>
+              <li>Material : Aluminium alloy</li>
+              <li>Color : Black</li>
+              <li>Capacity : 45lbs</li>
+              <li>Ease : Steady & adjustable</li>
+            </ul>
+            <div class="golf_bag_main">
+              <img src="./dist/image/Golf_bag1.png" alt="golf bag rock" />
+              <img src="./dist/image/Golf_bag2.png" alt="golf bag rock" />
+            </div>
+          </div>
+
+          <div class="golf_main">
+            <ul>
+              <h3 class="section_heading">Shopping Rack</h3>
+              <li>Material : Aluminium alloy</li>
+              <li>Color : Black</li>
+              <li>Capacity : 45lbs</li>
+              <li>Ease : Steady & adjustable</li>
+            </ul>
+            <div class="golf_bag_main">
+              <img src="./dist/image/shopping_rack1.png" alt="Shopping Rack" />
+              <img src="./dist/image/shopping_rack2.png" alt="Shopping Rack" />
+            </div>
+          </div>
+
+          <button>More Accessories Coming Soon</button>
+        </div>
+      </div>
+    </section>
+    <!-- Multiple Accessories End -->
+
+    <!-- Gallery Start -->
+    <section>
+      <div class="container">
+        <div class="gallery">
+          <h3 class="section_heading">Gallery</h3>
+          <p class="section_para">
+            View gallery of our products and make yourself satisfied with our
+            creation.
+          </p>
+          <div class="gallery_main">
+            <div class="gallery_left">
+              <img src="./dist/image/gallery2.png" alt="Gallery" />
+              <div class="gallery_button">
+                <button>Battery Images</button>
+                <button>Spare Parts Images</button>
+                <button>Charging Cable Images</button>
+              </div>
+            </div>
+            <div class="gallery_right">
+              <img src="./dist/image/gallery1.png" alt="Gallery" />
+              <img src="./dist/image/gallery3.png" alt="Gallery" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery end -->
+
+    <!-- Colors start -->
+    <section>
+      <div class="container">
+        <div class="colors">
+          <h3 class="section_heading">Colors</h3>
+          <p class="section_para">Checkout our products colors.</p>
+        </div>
+      </div>
+      <div class="colors_main">
+        <img src="./dist/image/colors_image.png" alt="colors" />
+      </div>
+      <div class="container">
+        <div class="color_list">
+          <img src="./dist/image/color1.png" alt="" />
+          <img src="./dist/image/color2.png" alt="" />
+          <img src="./dist/image/color3.png" alt="" />
+          <img src="./dist/image/color4.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Colors end -->
+
+    <!-- testimonial start -->
+    <section>
+      <div class="container">
+        <div class="testimonial">
+          <h3 class="section_heading">Testimonials</h3>
+          <div class="multiple-items testimonial_list">
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled and demoralized by the charms
+                  of pleasure.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test1.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Serhiy Hipskyy</h2>
+                    <p class="testimonial_list_desg">CEO Universal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere
+                  possimus.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test2.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Justus Menke</h2>
+                    <p class="testimonial_list_desg">CEO Eronaman</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test3.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Britain Eriksen</h2>
+                    <p class="testimonial_list_desg">CEO Universal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled and demoralized by the charms
+                  of pleasure.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test1.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Serhiy Hipskyy</h2>
+                    <p class="testimonial_list_desg">CEO Universal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                  nihil impedit quo minus id quod maxime placeat facere
+                  possimus.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test2.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Justus Menke</h2>
+                    <p class="testimonial_list_desg">CEO Eronaman</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="testimonial_list_main">
+                <img
+                  src="./dist/image/testmonial_star.png"
+                  alt="no star"
+                  class="star_img"
+                />
+                <p class="testimonial_list_para">
+                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                  blanditiis praesentium voluptatum deleniti atque corrupti quos
+                  dolores.
+                </p>
+                <div class="testimonial_list_detail">
+                  <img src="./dist/image/test3.png" alt="" />
+                  <div>
+                    <h2 class="testimonial_list_name">Britain Eriksen</h2>
+                    <p class="testimonial_list_desg">CEO Universal</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial end -->
+
+    <!-- Newsletter start -->
+    <section class="newsletter_main">
+      <div class="container">
+        <div class="newsletter">
+          <h3 class="section_heading">Subscribe To Newsletter</h3>
+          <p class="section_para">
+            Subscribe to our newsletter to get amazing offers in future.
+          </p>
+          <div class="newsletter_main">
+            <input type="email" name="" id="" placeholder="Enter your email" />
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter end -->
+
+    <!-- Footer Start -->
+    <section class="footer_main">
+      <div class="container">
+        <div class="footer">
+          <div class="footer_left">
+            <img src="./dist/image/footer_image.png" alt="" />
+          </div>
+          <div class="footer_right">
+            <div>
+              <h2 class="footer_head">About</h2>
+              <p>Company</p>
+              <p>Teams</p>
+              <p>Profile</p>
+              <p>Careers</p>
+            </div>
+            <div>
+              <h2 class="footer_head">Resources</h2>
+              <p>Contact</p>
+              <p>Application</p>
+              <p>FQA Features</p>
+            </div>
+            <div>
+              <h2 class="footer_head">Legals</h2>
+              <p>Copyright Privacy</p>
+              <p>Policy Disclaimer</p>
+              <p>Terms</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer end -->
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./dist/js/script.js"></script>
+  </body>
+</html>
